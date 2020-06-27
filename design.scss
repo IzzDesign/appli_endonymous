@@ -1,0 +1,63 @@
+---
+---
+
+img.logo{max-width:90px;}
+
+.application{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  img.screen{max-width: 300px;}
+  img.screen2{position: relative; bottom: -32px; max-width: 300px;}
+  img.screen3{max-width: 200px;}
+  div{padding: 2em 0;}
+  p{font-size: 1.1em;}
+  .bg{background-color:#FEB500;}
+  .text-left{padding-left: 2em;}
+  .margin{
+    margin: 1.5em;
+    div{margin:0.8em;}
+  }
+  .entete{
+    background-image: url(https://i.f1g.fr/media/madame/1900x1425/sites/default/files/img/2017/12/les-astuces-pour-eviter-davoir-mal-au-ventre.jpg);
+    background-position-y:center;
+    background-size:cover;
+    padding: 1em;
+    align-items: center;
+    h2{color: white;font-size: 3em;}
+    p{font-family: 'Roboto', sans-serif; font-size: 1.5em;color: white;}
+    img{max-width: 300px;}
+  }
+  h1,h2,h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+  }
+  h3{
+    font-size: 2em;
+    text-indent: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  h4{
+    text-indent: 0;
+    text-decoration: none;
+  }
+  img{
+    max-width: 210px;
+  }
+  button{
+    background-color:#FEB500;
+    color: #fff;
+    padding: 1em;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+  }
+  .fonction{
+    p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2em;
+    }
+  }
+}
