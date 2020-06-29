@@ -10,8 +10,12 @@ img.logo{max-width:90px;}
   img.screen{max-width: 300px;}
   img.screen2{position: relative; bottom: -32px; max-width: 300px;}
   img.screen3{max-width: 200px;}
-  div{padding: 2em 0;}
-  p{font-size: 1.1em;}
+  div{padding: 2em 0;align-items: center;}
+  .align-bot{
+    align-items: start;
+    p{margin-top: 0.5em;}
+  }
+  p, li{font-size: 1.1em;}
   .bg{background-color:#FEB500;}
   .text-left{padding-left: 2em;}
   .margin{
@@ -43,6 +47,10 @@ img.logo{max-width:90px;}
     text-indent: 0;
     text-decoration: none;
   }
+
+h5{
+  margin-top: 0.5em;
+}
   img{
     max-width: 210px;
   }
@@ -56,8 +64,7 @@ img.logo{max-width:90px;}
   }
   .fonction{
     p{
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.2em;
+      font-size: 1.4em;
     }
   }
 }

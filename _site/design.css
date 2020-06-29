@@ -1,0 +1,49 @@
+img.logo { max-width: 90px; }
+
+.application { display: flex; flex-direction: column; text-align: center; }
+
+.application img.screen { max-width: 300px; }
+
+.application img.screen2 { position: relative; bottom: -32px; max-width: 300px; }
+
+.application img.screen3 { max-width: 200px; }
+
+.application div { padding: 2em 0; align-items: center; }
+
+.application .align-bot { align-items: start; }
+
+.application .align-bot p { margin-top: 0.5em; }
+
+.application p, .application li { font-size: 1.1em; }
+
+.application .bg { background-color: #FEB500; }
+
+.application .text-left { padding-left: 2em; }
+
+.application .margin { margin: 1.5em; }
+
+.application .margin div { margin: 0.8em; }
+
+.application .entete { background-image: url(https://i.f1g.fr/media/madame/1900x1425/sites/default/files/img/2017/12/les-astuces-pour-eviter-davoir-mal-au-ventre.jpg); background-position-y: center; background-size: cover; padding: 1em; align-items: center; }
+
+.application .entete h2 { color: white; font-size: 3em; }
+
+.application .entete p { font-family: 'Roboto', sans-serif; font-size: 1.5em; color: white; }
+
+.application .entete img { max-width: 300px; }
+
+.application h1, .application h2, .application h3, .application h4, .application h5 { font-family: 'Roboto', sans-serif; text-transform: uppercase; }
+
+.application h3 { font-size: 2em; text-indent: 0; text-align: center; text-transform: uppercase; margin-bottom: 0; }
+
+.application h4 { text-indent: 0; text-decoration: none; }
+
+.application h5 { margin-top: 0.5em; }
+
+.application img { max-width: 210px; }
+
+.application button { background-color: #FEB500; color: #fff; padding: 1em; border: none; font-family: 'Roboto', sans-serif; font-size: 1.2em; }
+
+.application .fonction p { font-size: 1.4em; }
+
+/*# sourceMappingURL=design.css.map */
